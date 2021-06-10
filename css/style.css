@@ -1,0 +1,260 @@
+/*===== Mulis & Catamaran Font =====*/
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/*===== Global Css =====*/
+*, 
+.no-padding{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #f7f7f7;
+	font-family: 'Mulish', sans-serif;
+}
+h1, h2, h3{
+	font-family: 'Catamaran', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 800;
+}
+h4, h5, h6{
+	font-family: 'Mulish', sans-serif;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #696969;
+}
+ul li, 
+a {
+	font-family: 'Catamaran', sans-serif;
+	list-style: none;
+}
+button{
+	background: #ff690f;
+	border: none;
+	border-radius: 3px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #fff;
+	transition: .4s ease-in-out;
+}
+button:focus{
+	outline: none;
+}
+button:hover{
+	background: #2e5386;
+	transform: scale(1.2);
+}
+
+/*===== Header Section =====*/
+header{
+	background: url(../img/banner-bg.png) no-repeat top center;
+	background-size: cover;
+	padding: 20px 0 280px;
+}
+.navigation-bar{
+	    padding: 0 110px;
+}
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link.active {
+	padding: 10px 26px;
+    color: #fff;
+    transition: 0.4s ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	background: #ff690f;
+	color: #fff;
+	transform: scale(1.2);
+}
+.banner-content p {
+    padding: 450px 0px 10px 25px;
+    font-size: 22px;
+    color: #fff;
+}
+.banner-content button{
+	margin: 40px 25px 55px;
+	padding: 10px 20px;
+}
+
+/*===== Promo Section =====*/
+.promo-section{
+	padding: 50px 0;
+}
+.promo-section h2 {
+    font-size: 62px;
+    color: #2f2f2f;
+}
+.promo-section p {
+    padding: 10px;
+    text-align: center;
+    color: #525252;
+}
+.promo-area{
+	text-align: center;
+	padding-left: 70px;
+}
+.promo-area img {
+    display: block;
+    margin: 40px auto;
+}
+.promo-area h2 {
+	padding: 5px 0;
+    font-size: 27px;
+    color: #2f2f2f;
+}
+.promo-area button{
+	padding: 10px 20px;
+}
+.promo-area button span{
+	font-family: 'Catamaran', sans-serif;
+}
+
+/*===== Gallery Section =====*/
+.gallery-section{
+	padding: 50px 0;
+}
+.gallery-section .row{
+	padding: 0;
+	margin: 0;
+}
+.gallery-section .img-area{
+	max-width: 105%;
+}
+.left-item{
+	display:block;
+}
+
+/*===== Crew Section =====*/
+.crew-section{
+	padding: 50px 0;
+}
+.crew-area{
+	text-align: center;
+}
+.crew-area img {
+    display: block;
+    margin: 40px auto;
+}
+.crew-area h2 {
+	padding: 5px 0;
+    font-size: 27px;
+    color: #2f2f2f;
+}
+
+/*===== About Section =====*/
+.about-section{
+	background: url(../img/about-bg.png) no-repeat top center;
+	background-size: cover;
+	margin: 50px 0;
+}
+.about-area{
+	padding: 210px 120px 210px 30px;
+}
+.about-area h2{
+	margin-bottom: 55px;
+	font-size: 68px;
+	text-align: left;
+	color: #2b2b2b;
+}
+.about-area p{
+	color: #272727;
+}
+.counte-area{
+	padding: 45px 5px 72px;
+	text-align: center;
+}
+.counte-area h1{
+	font-size: 65px;
+	text-align: left;
+	color: #ff690f;
+}
+.counte-area h3 {
+    font-size: 18px;
+    text-align: left;
+    color: #272727;
+}
+
+/*===== Testimonial Section =====*/
+.testimonial-section{
+	padding: 50px 0;
+}
+.testimonial-section h2 {
+    color: #2f2f2f;
+    font-size: 60px;
+}
+.slide-image {
+	padding: 35px 0;
+    text-align: center;
+}
+.quote{
+	margin-top: 90px;
+}
+.testimonial-section h3 {
+    margin-top: -20px;
+    font-size: 20px;
+    color: #2f2f2f;
+}
+.testimonial-section p {
+    padding: 15px 50px;
+    text-align: center;
+    color: #525252;
+}
+.owl-carousel .owl-item img {
+    display: inline-block;
+    width: auto;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #ff630b;
+}
+
+/*===== Footer Section =====*/
+footer {
+	background: #2f2f2f;
+	margin-top: 50px;
+}
+.footer-content{
+	padding: 45px 85px 45px 70px;
+}
+.footer-content h2{
+	text-align: left;
+	font-size: 50px;
+	color: #fff;
+}
+.footer-content ul{
+	margin-left: 0;
+	padding-left: 0;
+	text-transform: uppercase;
+}
+.footer-content ul li{
+	padding: 10px 26px 10px 30px;
+	text-align: left;
+	color: #adadad;
+}
+.footer-content ul .fa{
+	padding: 15px 5px 10px;
+	font-size: 18px;
+	text-align: left;
+	color: #ff600a;
+	float: left;
+}
+.fa-envelope {
+	font-size: 15px;
+}
+.footer-content a{
+	margin: 10px 18px 0 0;
+    font-size: 30px;
+    color: #979797;
+    transition: 0.4s ease-in-out;
+}
+.footer-content a:hover{
+    color: #ff600a;
+}
+
+/*===== Media Query For Mobile =====*/
+@media (min-width: 320px) and (max-width: 575px){
+	header {
+    	padding: 0;
+	}
+	.navigation-bar {
+    	padding: 0;
+	}
+}
